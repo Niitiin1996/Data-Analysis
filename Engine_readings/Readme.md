@@ -1,4 +1,4 @@
-Objective: To read the file 'engine_data.out' and perform the following operations on the data.
+## Objective: To read the file 'engine_data.out' and perform the following operations on the data.
 
 1.) Data Visualizer
 
@@ -6,7 +6,8 @@ Objective: To read the file 'engine_data.out' and perform the following operatio
 
 3.) Basic Performance Calculation
 
-Concept: The basic concept is to read the file 'engine_data.out' and perform several functions on it. As Sublime doesn't allow you to input the data, It is better to define a function Input(), to input the column numbers . I have taken the example of Columns nos. 1 & 5. To perform a compatibility check, the try and except block: is to be used, as it is used for Python exceptions i.e. it will display the command 'File not recognized. Please provide a valid CONVERGE output file', if it fails to open. The next task will be to calculate the engine's basic performance calculations i.e. 
+# Concept: 
+The basic concept is to read the file 'engine_data.out' and perform several functions on it. As Sublime doesn't allow you to input the data, It is better to define a function Input(), to input the column numbers . I have taken the example of Columns nos. 1 & 5. To perform a compatibility check, the try and except block: is to be used, as it is used for Python exceptions i.e. it will display the command 'File not recognized. Please provide a valid CONVERGE output file', if it fails to open. The next task will be to calculate the engine's basic performance calculations i.e. 
 
 a) Area under a P-V diagram
 
@@ -26,7 +27,8 @@ c) Specific Fuel Consumption
 
 sfc = Area/ Work Done 
 
-Methodology: Let us go task by task in solving this assignment: 
+# Methodology: 
+Let us go task by task in solving this assignment: 
 
 1. The first task is to enter column numbers as input. As sublime doesn't offer input to the user, therefore, instead of using sublimeREPL as it may result in slowing of program building, a separate function is to be used, namely Input().
 
